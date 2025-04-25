@@ -1,0 +1,11 @@
+.header {
+	padding: 8rem 8rem 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h3 {
+	text-align: center;
+	color: white;
+}
