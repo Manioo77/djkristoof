@@ -1,11 +1,61 @@
+.headerWrapper {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
 .header {
 	padding: 8rem 8rem 6rem;
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.h3 {
-	text-align: center;
-	color: white;
+.spacer {
+	flex: 1;
+}
+
+.logo {
+	flex: 0;
+}
+
+.containerImages {
+	display: flex;
+	gap: 20px;
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.menu {
+	display: flex;
+	gap: 3rem;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.menuItem {
+	font-size: 26px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	color: #ffffff;
+}
+
+.menuItem:hover {
+	color: #66ccff;
+}
+
+.active {
+	color: #66ccff;
+}
+
+.busItem {
+	border: 2px solid #000;
+	background-color: #fff;
+	color: #000000;
+	padding: 0.5rem 1rem;
+	border-radius: 6px;
 }
